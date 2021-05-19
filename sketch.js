@@ -23,7 +23,7 @@ function preload(){
      bubble=loadImage("images/bubble.png ")
      plate=loadImage("images/plate.png")
      backgroundimg=loadImage("images/pink.jpeg")
-     shelf4=loadImage("images/shelf2.PNG")
+     //shelf4=loadImage("images/shelf2.PNG")
      quote1=loadImage("images/q1.jpg")
      quote2=loadImage("images/q2.jpg")
      floor=loadImage("images/floor.jpg")
@@ -67,7 +67,9 @@ function draw(){
     background(backgroundimg)
     Customer();
     image(shelfimg,400,70,950,300)
-   image(shelf4,500,220,600,20)
+    fill("lightblue");
+    rect(500,220,600,20)
+   //image(shelf4,500,220,600,20)
     image(food3, 710,170 ,60,60)
     image(food4,800,165,60,60)
     image(food5,880,155,60,70)
